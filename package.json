@@ -1,0 +1,25 @@
+{
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.13",
+    "i18next": "^25.6.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-i18next": "^16.2.4",
+    "react-lazyload": "^3.2.1",
+    "react-router-dom": "^7.9.1",
+    "react-scroll": "^1.9.3",
+    "react-skillbars": "^2.2.0",
+    "scroll": "^3.0.1",
+    "tailwindcss": "^4.1.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.3.1"
+  }
+}
