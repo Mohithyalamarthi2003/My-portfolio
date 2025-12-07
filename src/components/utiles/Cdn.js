@@ -26,6 +26,7 @@ import internet from '../../assests/internet.webp';
 import manual from '../../assests/manual.jpg';
 import publication from '../../assests/ML Publish.jpg';
 import publication1 from '../../assests/mgr publish.jpg'
+import machine from '../../assests/machine.jpeg';
 export {
   Logo,
   image,
@@ -53,5 +54,6 @@ export {
   publication,
   publication1,
   internet,
-  port
+  port,
+  machine
 };
