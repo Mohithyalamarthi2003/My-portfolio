@@ -1,6 +1,6 @@
 import React from "react";
-import { port } from "./utiles/Cdn";
-import { machine, internet, manual } from "./utiles/Cdn";
+import { port } from "./utiles/Cdn.js";
+import { machine, internet, manual } from "./utiles/Cdn.js";
 import ThemeToggle from "../../ThemeToggle.jsx";
 
 const Projects = () => {

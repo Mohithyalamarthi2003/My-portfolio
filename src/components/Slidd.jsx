@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { duo1, duo2, duo3, duo4, german } from "./utiles/Cdn";
+import { duo1, duo2, duo3, duo4, german } from "./utiles/Cdn.js";
 
 const Slidd = () => {
   const images = [duo1, duo2, duo3, duo4, german];

@@ -1,5 +1,5 @@
 import React from "react";
-import { publication, publication1, ml, internet } from "./utiles/Cdn";
+import { publication, publication1, ml, internet } from "./utiles/Cdn.js";
 
 const Publications = () => {
   return (
