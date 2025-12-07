@@ -16,7 +16,7 @@ import {
   manual,
   jsx,
   tailblocks,
-} from "./utiles/Cdn";
+} from "./utiles/Cdn.js";
 
 // Lazy-loaded components
 const Body = lazy(() => import("./Body.jsx"));
