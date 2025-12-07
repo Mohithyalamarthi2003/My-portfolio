@@ -15,7 +15,7 @@ import manual from '../../assests/manual.jpg';
 import linkedin from '../../assests/linkedin.png';
 import insta from '../../assests/insta.png';
 import gmail from '../../assests/gmail.png';
-
+import skill1 from '../../assests/skill1.jpg';
 export {
   Logo,
   image,
@@ -32,5 +32,6 @@ export {
   manual,
   insta,
   linkedin,
-  gmail
+  gmail,
+  skill1
 };
