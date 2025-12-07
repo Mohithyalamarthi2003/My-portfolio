@@ -60,5 +60,6 @@ export {
   port,
   machine,
   consolidated,
-  mlpublish
+  mlpublish,
+  mgrpublish
 };
