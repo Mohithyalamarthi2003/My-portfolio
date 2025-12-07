@@ -1,5 +1,5 @@
 import React from "react";
-import { insta, linkedin, gmail } from "./utiles/Cdn.js";
+import { insta, linkedin, gmail } from "../utiles/Cdn.js";
 import ThemeToggle from "../../ThemeToggle.jsx";
 
 function fun(url) {
