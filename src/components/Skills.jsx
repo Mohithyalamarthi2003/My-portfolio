@@ -8,10 +8,10 @@ const Skills = ({img, name, description }) => {
     <>
       <div>
       </div>
-      <div className="w-70 h-90 mt-10 mb-5 ml-10 mr-10 border-2 border-solid pl-3 pt-10 hover:w-75 duration-900 dark:bg-gray-900 dark:text-white">
-       <img src={img} alt="" className="m-auto pr-3"/>
-        <h1 className="pt-3 pr-7 font-bold text-2xl">{name}</h1>
-        <h3 className="pr-5 pt-5"><i>{description}</i> </h3>
+      <div className="w-64 h-96 mt-10 mb-5 ml-10  border-2 border-solid  hover:w-[300px] duration-3900 dark:bg-gray-900 dark:text-white">
+       <img src={img} alt="" className="m-auto pl-0"/>
+        <h1 className="pt-5 pr-7 font-bold text-2xl pl-7">{name}</h1>
+        <h3 className="pr-5 pt-5 pl-5"><i>{description}</i> </h3>
       </div>
     </>
   );

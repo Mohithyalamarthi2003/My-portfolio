@@ -71,12 +71,11 @@ const Body = () => {
         <img
           src={image}
           alt="Profile"
-          className="h-40 mb-10 w-full sm:h-60 sm:mb-0 sm:w-[600px] hover:w-[640px] hover:h-[200px] duration-5000 group sm:hover:h-[260] lg:w-[700px] lg:h-80 lg:hover:h-90 lg:hover:w-[750px]"
-        />
+          className="h-40 mb-10 w-full sm:h-60 sm:mb-0 sm:w-[600px]  duration-8000 group   lg:w-[700px] lg:h-80"/>
       </div>
 
       {/* Slider Section */}
-      <div className="shadow-sm mt-10 md:pt-5 dark:bg-gray-900">
+      <div className="shadow-sm mt-10 md:pt-5  dark:bg-gray-900">
         <Slidder />
       </div>
     </div>

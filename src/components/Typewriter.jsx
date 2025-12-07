@@ -4,8 +4,9 @@ import ThemeToggle from "../../ThemeToggle";
 const Typewriter = () => {
   const text = [
     "Are you ready to explore my Skills....!",
-    "Representation of Skills in bar's",
-    "I have hands-on experience on my skills",
+    "Showcasing my skills here !",
+    "I have hands-on experience on my skills !",
+  
   ];
 
   const [txt, settxt] = useState("");
@@ -42,7 +43,7 @@ const Typewriter = () => {
   return (
     <div className="dark:bg-gray-900 dark:text-white">
       <h1
-        className={`text-2xl  mt-0 pt-10 pb-10 font-bold ml-10 transition-opacity duration-500 ${
+        className={`  mt-0 pt-10  font-bold ml-10 transition-opacity duration-500 ${
           visible ? "opacity-100" : "opacity-0"
         }`}
       >

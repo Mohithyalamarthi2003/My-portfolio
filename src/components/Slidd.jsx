@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { duo,duo1,duo2,duo3,duo4,duo5 } from "./utiles/Cdn.js";
+import {duo1,duo2,duo3,duo4,german } from "./utiles/Cdn.js";
 
 const Slidd = () => {
-  const images = [duo,duo1,duo2,duo3,duo4,duo5];
+  const images = [duo1,duo2,duo3,duo4,german];
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
@@ -15,7 +15,7 @@ const Slidd = () => {
   }, []);
 
   return (
-    <div className="relative w-full h-80 md:h-[450px] overflow-hidden rounded-xl shadow-lg mb-10">
+    <div className="relative w-full md:mt-5  h-80 md:h-[350px] overflow-hidden rounded-xl shadow-lg mb-10">
       <div
   className="flex transition-transform duration-1000 ease-in-out w-full h-full"
   style={{ transform: `translateX(-${index * 100}%)` }}

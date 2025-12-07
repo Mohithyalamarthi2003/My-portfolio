@@ -8,7 +8,7 @@ function fun(url) {
 
 const Footer = () => {
   return (
-    <div className="p-4 pb-4 dark:bg-gray-400 dark:text-white bg-gray-200 text-center sm:text-left md:pl-2 md:w-full md:h-30">
+    <div className=" p-4 pb-4 dark:bg-gray-400 dark:text-white bg-gray-200 text-center sm:text-left md:pl-2 md:w-full md:h-30">
       {/* Name & Location */}
       <h1 className="text-[15px] sm:text-xl md:text-[22px] lg:text-xl font-bold md:mt-1 md:mb-0">
         Mohith Yalamarthi
@@ -44,18 +44,18 @@ const Footer = () => {
           <img
             src={insta}
             alt="Instagram"
-            onClick={() => fun("https://www.instagram.com/")}
+            onClick={() => fun("https://github.com/Mohithyalamarthi2003")}
             className="w-6 h-6 cursor-pointer rounded-xl sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-10 lg:h-10 hover:scale-110 transition-transform"
           />
         </div>
 
         {/* Contact number */}
-        <h1 className=" mr-10 font-bold text-[13px] sm:text-[15px]  md:ml-[-1070] md:text-[17px] lg:text-[18px]  mb-2 ">
+        <h1 className=" mr-10 font-bold text-[13px] sm:text-[15px]  md:ml-[-1050] md:text-[17px] lg:text-[18px]  mb-2 md:mt-[-9]">
           +91 6281302115
         </h1>
 
         {/* Copyright */}
-        <p className="text-[12px] sm:text-[14px] md:text-[16px] lg:text-[17px]  text-center md:mb-2 md:mt-[-40]">
+        <p className="text-[12px] sm:text-[14px] md:text-[16px] lg:text-[17px]  text-center md:mt-[-34]">
           © 2025 Mohith Sri Satya Sai Yalamarthi. All rights reserved.
         </p>
 
