@@ -1,5 +1,9 @@
 import React from "react";
-import { publication, publication1, ml, internet } from "./utiles/Cdn.js";
+import { publication, publication1, ml, internet,mlpublish} from "./utiles/Cdn.js";
+import Resume from "../assests/Resume.pdf";
+import Journal from "../assests/Journal.pdf";
+import Report from '../assests/Report.pdf';
+import abstract from '../assests/abstract.pdf';
 
 const Publications = () => {
   return (
@@ -66,7 +70,7 @@ const Publications = () => {
       </p>
       <div className="md:ml-10 md:animate-bounce ml-2 ">
         <a
-          href="/Journal.pdf"
+          href={Journal}
           className="border p-2 cursor-pointer ml-8  bg-blue-800 text-white inline-block pointer"
           target="_self"
         >
@@ -74,7 +78,7 @@ const Publications = () => {
         </a>
 
         <a
-          href="/Report.pdf"
+          href={Report}
           className="border p-2 cursor-pointer  bg-blue-800 text-white inline-block pointer ml-10  md:ml-40"
           target="_self"
         >
@@ -90,7 +94,7 @@ const Publications = () => {
         </a>
 
         <a
-          href="/mlpublish.jpg"
+          href={mlpublish}
           className="border p-2 cursor-pointer  bg-blue-800 text-white inline-block pointer  md:ml-40 ml-12 mt-5"
           target="_self"
         >
@@ -133,7 +137,7 @@ const Publications = () => {
       </p>
       <div className="md:ml-10  md:animate-bounce  gap-20 ml-5">
         <a
-          href="/abstract.pdf"
+          href={abstract}
           className="border p-2 cursor-pointer  bg-blue-800 text-white inline-block pointer ml-10 md:ml-40 md:mb-4"
           target="_self"
         >
@@ -149,7 +153,7 @@ const Publications = () => {
         </a>
 
         <a
-          href="/publication.jpg"
+          href={publication}
           className="border p-2 cursor-pointer  bg-blue-800 text-white inline-block pointer ml-18 md:ml-40 mt-4 mb-2"
           target="_self"
         >

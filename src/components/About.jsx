@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import Slidd from "./Slidd.jsx";
-import { image, namastey, besant, german } from "./utiles/Cdn.js";
+import { image, namastey, besant, german,mlpublish } from "./utiles/Cdn.js";
 import { Link } from "react-router-dom";
 import LazySection from "./LazySection.jsx";
 import ThemeToggle from "../../ThemeToggle.jsx";
@@ -194,7 +194,7 @@ const About = () => {
                 type="button"
                 className="bg-blue-500 text-white cursor-pointer border-1 border-solid p-3 cursor:pointer rounded-[6px] ml-10 mt-10 animate-bounce"
               >
-                <a href="/mlpublish.jpg" target="_self">
+                <a href={mlpublish} target="_self">
                   click to view{" "}
                 </a>
               </button>

@@ -27,6 +27,8 @@ import manual from '../../assests/manual.jpg';
 import publication from '../../assests/ML Publish.jpg';
 import publication1 from '../../assests/mgr publish.jpg'
 import machine from '../../assests/machine.jpeg';
+import mlpublish from '../../assests/mlpublish.jpg';
+import consolidated from '../../assests/consolidated.jpg';
 export {
   Logo,
   image,
@@ -55,5 +57,7 @@ export {
   publication1,
   internet,
   port,
-  machine
+  machine,
+  consolidated,
+  mlpublish
 };

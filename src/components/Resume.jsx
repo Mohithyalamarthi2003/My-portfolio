@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import ThemeToggle from "../../ThemeToggle";
+import Resume from '../assests/Resume.pdf';
+import {consolidated} from "./utiles/Cdn.js";
 const Resume = () => {
   return (
     <div className=" bg-orange-50 pb-10 dark:bg-gray-900 dark:text-white">
@@ -11,7 +13,7 @@ const Resume = () => {
         type="button"
         className="border border-gray-400 rounded-2xl mt-10 md:mt-23 ml-10 animate-bounce w-32 h-10 bg-blue-500 text-white hover:bg-blue-700 transition"
       >
-        <a href="/Resume.pdf" target="_blank">
+        <a href={Resume} target="_blank">
           View Resume
         </a>
       </button>
@@ -35,7 +37,7 @@ const Resume = () => {
           type="button"
           className="border ml-10 mt-6 pl-5 pr-5 bg-blue-600 text-white pt-2 pb-2 animate-bounce"
         >
-          <a href="./consolidated.jpg" target="_blank">
+          <a href={consolidated} target="_blank">
             Click to View{" "}
           </a>
         </button>
