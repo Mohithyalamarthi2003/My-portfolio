@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { Logo, image } from "../utiles/Cdn.js";
+import { Logo, image } from "./components/utiles/Cdn";
 import Slidder from "./Slidder.jsx";
 import About from "./About.jsx";
 import { useNavigate, Link } from "react-router-dom";

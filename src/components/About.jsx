@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import Slidd from "./Slidd.jsx";
-import { image, namastey, besant, german } from "../utiles/Cdn.js";
+import { image, namastey, besant, german } from "./components/utiles/Cdn";
 import { Link } from "react-router-dom";
 import LazySection from "./LazySection.jsx";
 import ThemeToggle from "../../ThemeToggle.jsx";

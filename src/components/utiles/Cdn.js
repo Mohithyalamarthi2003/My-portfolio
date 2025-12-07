@@ -1,33 +1,69 @@
-export const Logo = "/assests/ghibli photo.avif";
-export const image = "/assests/coding.webp";
-export const java = "/assests/java.webp";
-// export const duo="/assests/IMG-20250928-WA0005.jpg";
-export const duo1 = "/assests/IMG-20250928-WA0006.jpg";
-export const duo2 = "/assests/IMG-20250928-WA0008.jpg";
-export const duo3 = "/assests/IMG-20250928-WA0011.jpg";
-export const duo4 = "/assests/IMG-20250928-WA0012.jpg";
-export const duo5 = "/assests/IMG-20250928-WA0013.jpg";
-export const Java = "/assests/Java.jpg";
-export const css = "/assests/css1.webp";
-export const js = "/assests/javascript.jpg";
-export const react = "/assests/react.jpg";
-export const tailcss = "/assests/tailcss.png";
-export const manual = "/assests/manual.jpg";
-export const skill1 = "/assests/skill1.jpg";
-export const jsx = "/assests/jsx.jpg";
-export const tailblocks = "/assests/tailblocks.png";
-export const insta = "/assests/insta.png";
-export const linkedin = "/assests/linkedin.png";
-export const gmail = "/assests/gmail.png";
-export const namastey = "/assests/React certification.webp";
-export const besant = "/assests/Java certification.jpg";
-export const portfolio = "/assests/portfolio.png";
-export const machine = "/assests/machine.jpeg";
-export const website = "/assests/website.jpeg";
-export const port = "/assests/port.jpg";
-export const cal = "/assests/cal.png";
-export const publication = "/assests/publication.jpg";
-export const publication1 = "/assests/mlpublication.jpg";
-export const ml = "/assests/driver.webp";
-export const internet = "/assests/internet.webp";
-export const german = "/assests/german.jpg";
+// src/components/utiles/Cdn.js
+
+import Logo from '../../../assets/ghibli-photo.avif';
+import image from '../../../assets/coding.webp';
+import java from '../../../assets/java.webp';
+import duo1 from '../../../assets/IMG-20250928-WA0006.jpg';
+import duo2 from '../../../assets/IMG-20250928-WA0008.jpg';
+import duo3 from '../../../assets/IMG-20250928-WA0011.jpg';
+import duo4 from '../../../assets/IMG-20250928-WA0012.jpg';
+import duo5 from '../../../assets/IMG-20250928-WA0013.jpg';
+import Java from '../../../assets/Java.jpg';
+import css from '../../../assets/css1.webp';
+import js from '../../../assets/javascript.jpg';
+import react from '../../../assets/react.jpg';
+import tailcss from '../../../assets/tailcss.png';
+import manual from '../../../assets/manual.jpg';
+import skill1 from '../../../assets/skill1.jpg';
+import jsx from '../../../assets/jsx.jpg';
+import tailblocks from '../../../assets/tailblocks.png';
+import insta from '../../../assets/insta.png';
+import linkedin from '../../../assets/linkedin.png';
+import gmail from '../../../assets/gmail.png';
+import namastey from '../../../assets/React certification.webp';
+import besant from '../../../assets/Java certification.jpg';
+import portfolio from '../../../assets/portfolio.png';
+import machine from '../../../assets/machine.jpeg';
+import website from '../../../assets/website.jpeg';
+import port from '../../../assets/port.jpg';
+import cal from '../../../assets/cal.png';
+import publication from '../../../assets/publication.jpg';
+import publication1 from '../../../assets/mlpublication.jpg';
+import ml from '../../../assets/driver.webp';
+import internet from '../../../assets/internet.webp';
+import german from '../../../assets/german.jpg';
+
+export {
+  Logo,
+  image,
+  java,
+  duo1,
+  duo2,
+  duo3,
+  duo4,
+  duo5,
+  Java,
+  css,
+  js,
+  react,
+  tailcss,
+  manual,
+  skill1,
+  jsx,
+  tailblocks,
+  insta,
+  linkedin,
+  gmail,
+  namastey,
+  besant,
+  portfolio,
+  machine,
+  website,
+  port,
+  cal,
+  publication,
+  publication1,
+  ml,
+  internet,
+  german,
+};

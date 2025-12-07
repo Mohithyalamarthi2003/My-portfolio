@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import Typewriter from "./Typewriter";
 import ThemeToggle from "../../ThemeToggle.jsx";
-import { Java, skill1, css, js, react, tailcss, manual } from "./utiles/Cdn.js";
+import { Java, skill1, css, js, react, tailcss, manual } from "./components/utiles/Cdn";
 const Skills = ({ img, name, description }) => {
   return (
     <>
