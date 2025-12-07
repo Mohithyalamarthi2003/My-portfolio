@@ -1,4 +1,4 @@
-import Logo from '../../../assets/ghibli photo.avif';
+import Logo from '../../../assets/logo.avif';
 import image from '../../../assets/coding.webp';
 import java from '../../../assets/java.webp';
 import duo1 from '../../../assets/IMG-20250928-WA0006.jpg';
