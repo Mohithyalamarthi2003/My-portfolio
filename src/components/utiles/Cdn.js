@@ -16,6 +16,7 @@ import linkedin from '../../assests/linkedin.png';
 import insta from '../../assests/insta.png';
 import gmail from '../../assests/gmail.png';
 import skill1 from '../../assests/skill1.jpg';
+import tailblocks from '../../assests/tailblocks.png';
 export {
   Logo,
   image,
@@ -33,5 +34,6 @@ export {
   insta,
   linkedin,
   gmail,
-  skill1
+  skill1,
+  tailblocks
 };
