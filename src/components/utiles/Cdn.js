@@ -18,6 +18,7 @@ import gmail from '../../assests/gmail.png';
 import skill1 from '../../assests/skill1.jpg';
 import tailblocks from '../../assests/tailblocks.png';
 import jsx from '../../assests/jsx.jpg';
+import german from "../../assests/german.jpg";
 export {
   Logo,
   image,
@@ -37,5 +38,6 @@ export {
   gmail,
   skill1,
   tailblocks,
-  jsx
+  jsx,
+  german
 };
