@@ -21,6 +21,12 @@ import jsx from '../../assests/jsx.jpg';
 import german from "../../assests/german.jpg";
 import namastey from "../../assests/React certification.webp";
 import besant from '../../assests/Java certification.jpg';
+import port from '../../assests/port.jpg';
+import ml from '../../assests/driver.webp';
+import internet from '../../assests/internet.webp';
+import manual from '../../assests/manual.jpg';
+import publication from '../../assests/ML publish.jpg';
+import publication1 from '../../assests/mgr publish.jpg'
 export {
   Logo,
   image,
@@ -43,5 +49,10 @@ export {
   jsx,
   german,
   namastey,
-  besant
+  besant,
+  ml,
+  publication,
+  publication1,
+  internet,
+  port
 };
