@@ -20,6 +20,7 @@ import tailblocks from '../../assests/tailblocks.png';
 import jsx from '../../assests/jsx.jpg';
 import german from "../../assests/german.jpg";
 import namastey from "../../assests/React certification.webp";
+import besant from '../../assests/Java certification.jpg';
 export {
   Logo,
   image,
@@ -41,5 +42,6 @@ export {
   tailblocks,
   jsx,
   german,
-  namastey
+  namastey,
+  besant
 };
