@@ -10,6 +10,7 @@ const Skills = ({ img, name, description }) => {
         <img src={img} alt="" className="m-auto pl-0" />
         <h1 className="pt-5 pr-7 font-bold text-2xl pl-7">{name}</h1>
         <h3 className="pr-5 pt-5 pl-5">
+  <div></div>
           <i>{description}</i>{" "}
         </h3>
       </div>
