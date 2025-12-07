@@ -1,5 +1,5 @@
 import React from "react";
-import { publication, publication1, ml, internet,mgrpublish} from "./utiles/Cdn.js";
+import { publication, publication1, ml, internet,mgrpublish,mlpublish} from "./utiles/Cdn.js";
 import Journal from "../assests/Journal.pdf";
 import Report from '../assests/Report.pdf';
 import abstract from '../assests/abstract.pdf';
