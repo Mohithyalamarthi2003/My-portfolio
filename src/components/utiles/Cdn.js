@@ -1,8 +1,6 @@
-// src/components/utils/Cdn.js
 
 import Logo from '../../assests/logo.avif';
 import image from '../../assests/coding.webp';
-import java from '../../assests/java.webp';
 import duo1 from '../../assests/IMG-20250928-WA0006.jpg';
 import duo2 from '../../assests/IMG-20250928-WA0008.jpg';
 import duo3 from '../../assests/IMG-20250928-WA0011.jpg';
@@ -18,7 +16,6 @@ import manual from '../../assests/manual.jpg';
 export {
   Logo,
   image,
-  java,
   duo1,
   duo2,
   duo3,
