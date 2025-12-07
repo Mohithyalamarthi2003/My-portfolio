@@ -1,5 +1,5 @@
 import React from "react";
-import { publication, publication1, ml, internet,mlpublish} from "./utiles/Cdn.js";
+import { publication, publication1, ml, internet,mgrpublish} from "./utiles/Cdn.js";
 import Journal from "../assests/Journal.pdf";
 import Report from '../assests/Report.pdf';
 import abstract from '../assests/abstract.pdf';
@@ -152,7 +152,7 @@ const Publications = () => {
         </a>
 
         <a
-          href={publication}
+          href={mgrpublish}
           className="border p-2 cursor-pointer  bg-blue-800 text-white inline-block pointer ml-18 md:ml-40 mt-4 mb-2"
           target="_self"
         >

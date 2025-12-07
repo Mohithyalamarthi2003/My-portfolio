@@ -29,6 +29,7 @@ import publication1 from '../../assests/mgr publish.jpg'
 import machine from '../../assests/machine.jpeg';
 import mlpublish from '../../assests/mlpublish.jpg';
 import consolidated from '../../assests/consolidated.jpg';
+import mgrpublish from '../../assests/mgr publish.jpg';
 export {
   Logo,
   image,
