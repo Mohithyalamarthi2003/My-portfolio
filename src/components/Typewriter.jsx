@@ -6,7 +6,6 @@ const Typewriter = () => {
     "Are you ready to explore my Skills....!",
     "Showcasing my skills here !",
     "I have hands-on experience on my skills !",
-  
   ];
 
   const [txt, settxt] = useState("");

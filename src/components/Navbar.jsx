@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";   // ✅ Changed Link to NavLink
+import { NavLink } from "react-router-dom"; // ✅ Changed Link to NavLink
 import { Logo } from "./utiles/Cdn.js";
 import ThemeToggle from "../../ThemeToggle.jsx";
 
@@ -7,7 +7,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const activeStyle = {
-    color: "darkred",   // ✅ Active color
+    color: "darkred", // ✅ Active color
   };
 
   return (
@@ -20,31 +20,54 @@ const Navbar = () => {
 
           {/* ✅ Desktop Menu */}
           <ul className="hidden md:flex gap-15 font-bold text-[23px] text-blue-900 mr-10">
-            <NavLink to="/home" style={({ isActive }) => isActive ? activeStyle : undefined}>
+            <NavLink
+              to="/home"
+              style={({ isActive }) => (isActive ? activeStyle : undefined)}
+            >
               <li className="hover:text-red-800 ml-0 cursor-pointer">Home</li>
             </NavLink>
 
-            <NavLink to="/projects" style={({ isActive }) => isActive ? activeStyle : undefined}>
+            <NavLink
+              to="/projects"
+              style={({ isActive }) => (isActive ? activeStyle : undefined)}
+            >
               <li className="hover:text-red-800 cursor-pointer">Projects</li>
             </NavLink>
 
-            <NavLink to="/skills" style={({ isActive }) => isActive ? activeStyle : undefined}>
+            <NavLink
+              to="/skills"
+              style={({ isActive }) => (isActive ? activeStyle : undefined)}
+            >
               <li className="hover:text-red-800 cursor-pointer">Skills</li>
             </NavLink>
 
-            <NavLink to="/about" style={({ isActive }) => isActive ? activeStyle : undefined}>
+            <NavLink
+              to="/about"
+              style={({ isActive }) => (isActive ? activeStyle : undefined)}
+            >
               <li className="hover:text-red-800 cursor-pointer">About Me</li>
             </NavLink>
 
-            <NavLink to="/resume" style={({ isActive }) => isActive ? activeStyle : undefined}>
+            <NavLink
+              to="/resume"
+              style={({ isActive }) => (isActive ? activeStyle : undefined)}
+            >
               <li className="hover:text-red-800 cursor-pointer">Resume</li>
             </NavLink>
 
-            <NavLink to="/Publications" style={({ isActive }) => isActive ? activeStyle : undefined}>
-              <li className="hover:text-red-800 cursor-pointer">Publications</li>
+            <NavLink
+              to="/Publications"
+              style={({ isActive }) => (isActive ? activeStyle : undefined)}
+            >
+              <li className="hover:text-red-800 cursor-pointer">
+                Publications
+              </li>
             </NavLink>
 
-            <NavLink to="/contact" style={({ isActive }) => isActive ? activeStyle : undefined}>
+            <NavLink
+              to="/contact"
+              style={({ isActive }) => (isActive ? activeStyle : undefined)}
+            >
               <li className="hover:text-red-800 cursor-pointer">Contact Me</li>
             </NavLink>
           </ul>
@@ -74,7 +97,7 @@ const Navbar = () => {
                 key={path}
                 to={path}
                 onClick={() => setIsOpen(false)}
-                style={({ isActive }) => isActive ? activeStyle : undefined}
+                style={({ isActive }) => (isActive ? activeStyle : undefined)}
                 className="py-2 border-b border-gray-300 hover:bg-gray-400 p-4 text-xl font-bold text-black hover:text-blue-800"
               >
                 {label}

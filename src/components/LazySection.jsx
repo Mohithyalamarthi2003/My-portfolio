@@ -14,7 +14,7 @@ const LazySection = ({ children, height = 400 }) => {
           observer.unobserve(ref.current); // Stop observing once loaded
         }
       },
-      { threshold: 0.2 } // Trigger when 20% of section visible
+      { threshold: 0.2 }, // Trigger when 20% of section visible
     );
 
     if (ref.current) observer.observe(ref.current);

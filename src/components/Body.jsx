@@ -31,7 +31,6 @@ const Body = () => {
   }, [loopTrigger]);
 
   return (
-  
     <div className="pt-14 bg-green-50 dark:bg-gray-900 dark:text-white">
       {/* Intro Section */}
       <div className="flex flex-col md:flex-row gap-6 items-center px-4">
@@ -71,7 +70,8 @@ const Body = () => {
         <img
           src={image}
           alt="Profile"
-          className="h-40 mb-10 w-full sm:h-60 sm:mb-0 sm:w-[600px]  duration-8000 group   lg:w-[700px] lg:h-80"/>
+          className="h-40 mb-10 w-full sm:h-60 sm:mb-0 sm:w-[600px]  duration-8000 group   lg:w-[700px] lg:h-80"
+        />
       </div>
 
       {/* Slider Section */}

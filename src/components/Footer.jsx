@@ -26,7 +26,7 @@ const Footer = () => {
             alt="LinkedIn"
             onClick={() =>
               fun(
-                "https://www.linkedin.com/in/mohith-sri-satya-sai-yalamarthi-995893257"
+                "https://www.linkedin.com/in/mohith-sri-satya-sai-yalamarthi-995893257",
               )
             }
             className="w-6 h-6 cursor-pointer rounded-xl sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-10 lg:h-10 hover:scale-110 transition-transform "
@@ -36,7 +36,7 @@ const Footer = () => {
             alt="Gmail"
             onClick={() =>
               fun(
-                "https://mail.google.com/mail/?view=cm&fs=1&to=mohith.engineer@gmail.com"
+                "https://mail.google.com/mail/?view=cm&fs=1&to=mohith.engineer@gmail.com",
               )
             }
             className="w-6 h-6 cursor-pointer rounded-xl sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-10 lg:h-10 hover:scale-110 transition-transform"

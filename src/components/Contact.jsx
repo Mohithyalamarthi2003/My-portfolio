@@ -7,7 +7,7 @@ const Contact = () => {
   const [inputWidths, setInputWidths] = useState({
     firstname: "200px",
     lastname: "200px",
-    email: "200px"
+    email: "200px",
   });
 
   const [messageHeight, setMessageHeight] = useState("150px");
@@ -19,7 +19,7 @@ const Contact = () => {
 
     setInputWidths((prev) => ({
       ...prev,
-      [name]: `${Math.max(200, length * 12)}px`
+      [name]: `${Math.max(200, length * 12)}px`,
     }));
   };
 
@@ -40,8 +40,8 @@ const Contact = () => {
       method: "POST",
       body: formData,
       headers: {
-        Accept: "application/json"
-      }
+        Accept: "application/json",
+      },
     });
 
     if (response.ok) {
@@ -64,7 +64,6 @@ const Contact = () => {
         </h1>
 
         <form onSubmit={handleSubmit} className="overflow-hidden">
-
           {/* ✅ FIRST NAME */}
           <b>First Name:</b>
           <input

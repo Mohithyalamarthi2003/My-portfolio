@@ -13,23 +13,22 @@ const Slidder = () => {
   }, [img.length]);
 
   return (
-   <div className="relative w-full md:bg-gray-300 overflow-hidden rounded-xl shadow-lg h-[250px] sm:h-[250px] md:h-[400px] md:pt-10 md:pb-[-50px] lg:h-[500px]">
-  <div
-    className="flex transition-transform duration-1000 ease-in-out"
-    style={{ transform: `translateX(-${index * 100}%)` }}
-  >
-    {img.map((src, i) => (
-      <div key={i} className="w-full flex-shrink-0">
-        <img
-          src={src}
-          alt={`slide-${i}`}
-          className="w-[98%] h-full object-cover md:h-[390px] md:mb-[-50px] md:w-[2000px] md:ml-40 lg:w-[800px] sm:ml-60 sm:w-[800px] lg:ml-60"
-        />
+    <div className="relative w-full md:bg-gray-300 overflow-hidden rounded-xl shadow-lg h-[250px] sm:h-[250px] md:h-[400px] md:pt-10 md:pb-[-50px] lg:h-[500px]">
+      <div
+        className="flex transition-transform duration-1000 ease-in-out"
+        style={{ transform: `translateX(-${index * 100}%)` }}
+      >
+        {img.map((src, i) => (
+          <div key={i} className="w-full flex-shrink-0">
+            <img
+              src={src}
+              alt={`slide-${i}`}
+              className="w-[98%] h-full object-cover md:h-[390px] md:mb-[-50px] md:w-[2000px] md:ml-40 lg:w-[800px] sm:ml-60 sm:w-[800px] lg:ml-60"
+            />
+          </div>
+        ))}
       </div>
-    ))}
-  </div>
-</div>
-
+    </div>
   );
 };
 
