@@ -12,6 +12,9 @@ import js from '../../assests/javascript.jpg';
 import react from '../../assests/react.jpg';
 import tailcss from '../../assests/tailcss.png';
 import manual from '../../assests/manual.jpg';
+import linkedin from '../../assests/linkedin.png';
+import insta from '../../assests/insta.png';
+import gmail from '../../assests/gmail.png';
 
 export {
   Logo,
