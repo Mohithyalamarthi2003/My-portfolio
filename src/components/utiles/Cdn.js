@@ -24,7 +24,7 @@ import port from '../../assests/port.jpg';
 import ml from '../../assests/driver.webp';
 import internet from '../../assests/internet.webp';
 import manual from '../../assests/manual.jpg';
-import publication from '../../assests/ML publish.jpg';
+import publication from '../../assests/ML Publish.jpg';
 import publication1 from '../../assests/mgr publish.jpg'
 export {
   Logo,
