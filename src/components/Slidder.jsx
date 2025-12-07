@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Java, skill1, css, js, react, tailcss, manual } from "./components/utiles/Cdn";
+import { Java, skill1, css, js, react, tailcss, manual } from "./utiles/Cdn";
 
 const Slidder = () => {
   const img = [Java, skill1, css, js, react, tailcss, manual];

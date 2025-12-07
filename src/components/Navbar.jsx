@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom"; // ✅ Changed Link to NavLink
-import { Logo } from "./components/utiles/Cdn";
+import { Logo } from "./utiles/Cdn";
 import ThemeToggle from "../../ThemeToggle.jsx";
 
 const Navbar = () => {
