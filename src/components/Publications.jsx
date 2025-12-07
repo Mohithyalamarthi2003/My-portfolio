@@ -1,6 +1,5 @@
 import React from "react";
 import { publication, publication1, ml, internet,mlpublish} from "./utiles/Cdn.js";
-import Resume from "../assests/Resume.pdf";
 import Journal from "../assests/Journal.pdf";
 import Report from '../assests/Report.pdf';
 import abstract from '../assests/abstract.pdf';
