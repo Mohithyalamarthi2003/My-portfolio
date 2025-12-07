@@ -2,7 +2,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npx vite build",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -14,10 +14,10 @@
     "react-router-dom": "^7.9.1",
     "react-scroll": "^1.9.3",
     "react-skillbars": "^2.2.0",
-    "scroll": "^3.0.1",
-    "vite": "^7.2.6"
+    "scroll": "^3.0.1"
   },
   "devDependencies": {
+    "vite": "^7.2.6",
     "@vitejs/plugin-react": "^4.2.1",
     "autoprefixer": "^10.4.22",
     "postcss": "^8.5.6",
