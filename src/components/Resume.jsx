@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import ThemeToggle from "../../ThemeToggle";
-import Resume from '../assests/Resume.pdf';
+import res from '../assests/res.pdf';
 import {consolidated} from "./utiles/Cdn.js";
 const Resume = () => {
   return (
@@ -13,7 +13,7 @@ const Resume = () => {
         type="button"
         className="border border-gray-400 rounded-2xl mt-10 md:mt-23 ml-10 animate-bounce w-32 h-10 bg-blue-500 text-white hover:bg-blue-700 transition"
       >
-        <a href={Resume} target="_blank">
+        <a href={res} target="_blank">
           View Resume
         </a>
       </button>
