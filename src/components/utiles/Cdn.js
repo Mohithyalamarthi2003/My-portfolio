@@ -30,4 +30,7 @@ export {
   react,
   tailcss,
   manual,
+  insta,
+  linkedin,
+  gmail
 };
