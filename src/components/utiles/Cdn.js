@@ -1,5 +1,3 @@
-// src/components/utiles/Cdn.js
-
 import Logo from '../../../assets/ghibli photo.avif';
 import image from '../../../assets/coding.webp';
 import java from '../../../assets/java.webp';
