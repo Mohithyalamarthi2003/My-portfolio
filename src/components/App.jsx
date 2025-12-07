@@ -1,6 +1,5 @@
 import React, { Suspense, lazy } from "react";
 import { Routes, Route, Link } from "react-router-dom";
-import LazyLoad from "react-lazyload";
 import ThemeToggle from "../../ThemeToggle.jsx";
 
 
@@ -132,9 +131,9 @@ const App = () => {
          <Route
   path="/about"
   element={
-    <LazyLoad height={200} offset={100} once>
+  
       <About />
-    </LazyLoad>
+   
   }
 />
           <Route path="/resume" element={<Resume />} />
