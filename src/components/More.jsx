@@ -35,9 +35,9 @@ const More = () => {
         "Frontend is just my starting point—I’m eager to expand into diverse domains of technology. I’m ready to explore and adapt to new innovations that are booming globally.",
     },
     {
-      title: "Why do you want to do masters in switzerland",
+      title: "Why do you want to do masters",
       content:
-        "I want to pursue my master’s in Switzerland because it’s my dream destination and offers world‑class education. A degree from Switzerland is globally recognized, giving me strong academic reputation and international career opportunities.",
+        "I want to pursue my master’s  because it’s my dream destination. A degree from a respected university is globally recognized, giving me strong academic reputation and international career opportunities.",
     },
   ];
 

@@ -210,7 +210,7 @@ const About = () => {
               </h1>
               <p className="text-[18px] ml-10 pr-15  sm:max-w-[700px] md:max-w-[700px] sm:text-xl md:text-[13px] lg:text-xl w-full ">
                 As part of my long-term commitment to academic and cultural
-                integration in Switzerland, I've been consistently learning
+                integration, I've been consistently learning
                 German, maintaining a 520+ day streak on Duolingo and
                 progressing steadily through formal certification. Having nearly
                 completed A1 level and now advancing into A2, this daily
@@ -227,8 +227,7 @@ const About = () => {
           <p className="text-[18px] ml-10 mt-[270px] md:mt-[5px] sm:text-[14px] lg:text-xl pr-15  md:text-[10px] w-full ">
             I believe that language is a bridge to deeper collaboration, and my
             ongoing efforts demonstrate a genuine readiness to engage
-            meaningfully with peers, professors, and the broader Swiss
-            community. Whether in classroom discussions, research
+            meaningfully with peers, professors. Whether in classroom discussions, research
             collaborations, or everyday interactions, I aim to contribute with
             both technical expertise and cultural fluency building connections
             that go beyond code and curriculum
