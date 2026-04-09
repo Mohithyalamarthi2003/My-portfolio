@@ -215,9 +215,9 @@ const About = () => {
                 progressing steadily through formal certification. Having nearly
                 completed A1 level and now advancing into A2, this daily
                 discipline reflects not only my linguistic growth but also my
-                deep respect for Switzerland's multilingual heritage and my
+                deep respect for your country multilingual heritage and my
                 proactive mindset toward adapting to life in a German-speaking
-                academic environment
+                academic environment.
               </p>
             </div>
             <div className="w-full h-20 sm:h-[400px] md:ml-[150px] mr-10">
@@ -230,7 +230,7 @@ const About = () => {
             meaningfully with peers, professors. Whether in classroom discussions, research
             collaborations, or everyday interactions, I aim to contribute with
             both technical expertise and cultural fluency building connections
-            that go beyond code and curriculum
+            that go beyond code and curriculum.
           </p>
         </div>
 
